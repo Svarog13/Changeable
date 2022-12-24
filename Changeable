@@ -1,0 +1,16 @@
+#include <iostream>
+using namespace std;
+
+void main()
+{
+	/*Объявить три переменные типа int и присвоить первой числовое значение,
+	вторая переменная равна первой переменной увеличенной на 3, а третья переменная равна сумме первых двух.*/
+	int a = 5;
+	int b = a + 3;
+	int c = b + a;
+
+	cout << "first = " << a << endl;
+	cout << "second = " << b << endl;
+	cout << "third = " << c << endl;
+	
+}
